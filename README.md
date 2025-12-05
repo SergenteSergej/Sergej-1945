@@ -33,3 +33,5 @@ gcc src/*.c -I include -L lib -lraylib -lwinmm -lgdi32 -lopengl32 -luser32 -lshe
 ---Execute---
 
 .\bin\project1945.exe
+
+![20251205-1132-50 5573223](https://github.com/user-attachments/assets/bd817ce9-650b-435c-928d-9e639a03412e)
