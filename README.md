@@ -4,7 +4,7 @@ Description
 
 Project 1945 is a 2D arcade-style bullet hell game, inspired by the classic 1945-style shoot 'em up games. The player controls a fighter plane and battles against waves of enemy planes and their bullets. The objective is to avoid enemy bullets, destroy enemy planes, and survive as long as possible while keeping track of health and lives.
 
-Features
+---Features---
 
 Player Movement: Move the plane in all directions using arrow keys.
 
@@ -20,8 +20,16 @@ Score: Points are gained by destroying enemies. The score is displayed at the bo
 
 Game Over: The game ends when the player runs out of lives.
 
-Controls
+---Controls---
 
 Arrow Keys: Move the plane.
 
 Spacebar: Shoot bullets.
+
+---Compile the game using a C compiler---
+
+gcc src/*.c -I include -L lib -lraylib -lwinmm -lgdi32 -lopengl32 -luser32 -lshell32 -lole32 -mconsole -o bin/project1945.exe
+
+---Execute---
+
+.\bin\project1945.exe
